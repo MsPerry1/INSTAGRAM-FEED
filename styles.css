@@ -2,20 +2,22 @@ body{
     background-color:white;
     font-family:arialblack;
     display:flex;
-    justify-content:center;
-    padding: 300px;
-    gap: 80px;
-    margin: auto;
-    }
+    justify-content: center; /* horizontally center the content */
+    align-items: start; /* vertically center the content */
+    height: 100px; /* full viewport height */
+    margin-top: 20px; /* space from the top */
+    padding: 100px;
+}
 .instagram-feed photo {
     width:100%;
-    max-width:950px;
+    max-width:100px;
     display:grid;
+    align-items: middle;
     grid-template-columns:3,1fr;
     gap: 20px;
 }
 .image-wrapper {
-    position:relative;
+    position: relative;
     width:100%;
     padding-top:100%;
     overflow:hidden;
