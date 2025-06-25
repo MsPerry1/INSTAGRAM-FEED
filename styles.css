@@ -1,16 +1,16 @@
 body{
     background-color:white;
-    font-family:arialblack;
+    font-family:black;
     display:flex;
     justify-content: center; /* horizontally center the content */
-    align-items: start; /* vertically center the content */
+    align-items: start; /* center the content */
     height: 100px; /* full viewport height */
     margin-top: 20px; /* space from the top */
     padding: 100px;
 }
-.instagram-feed photo {
-    width:100%;
-    max-width:100px;
+.photo container: {
+    width: 50px;
+    margin: auto
     display:grid;
     align-items: center;
     grid-template-columns:3,1fr;
@@ -22,5 +22,17 @@ body{
     padding-top:100%;
     overflow:hidden;
     border-radius:10px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    center: auto
+    width: 100%;
+    height: 100px;
+    background-color: black 
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
 }
 
